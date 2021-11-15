@@ -1,0 +1,55 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    text-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -50px;
+}
+
+#footer {
+    height: 30px;
+}
+
+.center-block {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    display: block;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 0;
+}
+
+.inline-image {
+    margin-left: 20px;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.list-inline-item {
+    vertical-align: middle;
+    margin-bottom: .5rem;
+}
+
+.habrahabr-icon {
+    color: #007bff;
+}
+
+.habrahabr-icon:hover {
+    color: #0056b3;
+}
